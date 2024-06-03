@@ -1,0 +1,35 @@
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: rgb(255, 122, 113);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 122, 113, 1) 0%,
+    rgba(250, 152, 110, 1) 100%
+  );
+}
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.quote-box {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: #f8f9fa;
+}
+.author {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 1em;
+  color: #6c757d;
+}
